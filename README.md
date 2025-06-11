@@ -1,18 +1,26 @@
-# DevOps Sample Project
+# 🚀 DevOps Sample Project
 
-This is a sample DevOps project demonstrating a CI/CD pipeline using Jenkins, Docker, Kubernetes, and Terraform.
+A complete DevOps CI/CD pipeline showcasing industry best practices using **Jenkins**, **Docker**, **Kubernetes**, and **Terraform** — built for demo, portfolio, and interview purposes.
 
-## Features
-- Jenkins Pipeline for Build → Test → Deploy
-- Dockerized Flask App
-- Kubernetes Deployment YAML
-- Terraform Script for AWS S3 Bucket Provisioning
+---
 
-## How to Use
-1. Clone the repo: `git clone https://github.com/abbojidevops/devops-sample-project.git`
-2. Run Jenkins pipeline to automate CI/CD stages
-3. Build the Docker image locally or via Jenkins
-4. Deploy the image to Kubernetes using `kubectl apply`
-5. use Terraform to provision S3 bucket and infra
+## 🛠️ Tech Stack
 
-**This project is for educational/demo purposes only.**
+- 🔧 Jenkins – CI pipeline orchestration
+- 🐳 Docker – Containerized Flask application
+- ☸️ Kubernetes – Container orchestration (K8s deployment YAML)
+- 🌩️ Terraform – Infrastructure provisioning (AWS S3 bucket)
+- 🐍 Python – Minimal Flask app (app.py)
+
+---
+
+## 📦 Project Structure
+
+```bash
+├── Dockerfile               # Build config for containerizing app
+├── Jenkinsfile              # Jenkins pipeline script
+├── app.py                   # Flask demo application
+├── k8s/
+│   └── deployment.yaml      # K8s deployment manifest
+├── main.tf                  # Terraform infra code for S3
+├── README.md                # Project documentation
